@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: orangered;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  padding: 20px;
+}
+.logo {
+  text-transform: uppercase;
+  float: left;
+  font-weight: bold;
+}
+.logo span {
+  color: #000;
+}
+.barra {
+  float: right;
+}
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+}
+.barra ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+.barra a:hover {
+  color: #000;
+}
+.main {
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-image: url(/assets/ux-g964519ec7_1920.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.call-to-action {
+  color: #000;
+  width: 60%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  background-color: rgba(233, 229, 229, 0.61);
+  border: 5px solid orangered;
+  margin: 40px;
+  padding: 40px;
+}
+h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+.call-to-action p {
+  margin-bottom: 40px;
+}
+.call-to-action a {
+  color: red;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.call-to-action a:hover {
+  background-color: gray;
+  border: 3px double #000;
+}
+
+.section {
+  /** Usar el 100% de la pantalla vertical */
+  height: 100vh;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  background-color: orangered;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  padding: 20px;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer {
+  font-size: 18px;
+  letter-spacing: 10px;
+}
