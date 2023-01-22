@@ -34,16 +34,6 @@ header {
 .barra a:hover {
   color: #000;
 }
-.main {
-  height: calc(100vh - 80px);
-  width: 100%;
-  background-image: url(/assets/ux-g964519ec7_1920.jpg);
-  background-size: cover;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 .call-to-action {
   color: #000;
   width: 60%;
@@ -51,8 +41,12 @@ header {
   float: left;
   background-color: rgba(233, 229, 229, 0.61);
   border: 5px solid orangered;
-  margin: 40px;
   padding: 40px;
+
+  position: absolute;
+  z-index: 1000;
+  top: 38%;
+  left: 21%;
 }
 h1 {
   color: #000;
